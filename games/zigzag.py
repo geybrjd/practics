@@ -4,8 +4,8 @@ indentIncreasing = True                     # увеличивает или ум
 
 try:
     while True:                             # главный цикл
-        print(' ' * indent, end='')
-        print('********')
+        print(' ' * indent, end='')         # умножать пробелы и в конце добавить второй принт
+        print('********')                   #
         time.sleep(0.1)                     # пауза длительностью 1/10 секунды
 
         if indentIncreasing:
