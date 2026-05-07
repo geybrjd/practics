@@ -1,0 +1,28 @@
+# Метод которым мы можем заменить элемент списка:
+spam = ['one', 'two', 'three']
+prin(spam)
+>>> one two three
+spam[1] = 'four'
+print(spam)
+>>> one four three
+
+# здесь мы с помощью spam[1] = 'four' заменили значения элемента 1 в списке spam 
+
+# Конкатенация
+spam = [1, 2, 3]
+spam = spam + ['A', 'B', 'C']
+print(spam)
+>>> 1 2 3 A B C
+
+# Инструкция del удаляет элемент с заданным индексом. Также может удалять простые переменные
+
+spam = ['one', 'two', 'three']
+del spam[2]
+print(spam)
+>>> 'one two
+
+x = 'one'
+print(x)
+>>> 'one'
+del x
+print(x)  # Выдаст ошибку что нет такой переменной
